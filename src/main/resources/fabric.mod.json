@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "villagernews",
+  "version": "${version}",
+  "name": "Villager News",
+  "description": "A clean-room Fabric recreation inspired by a Villager News Bedrock add-on.",
+  "authors": ["Amresh"],
+  "environment": "*",
+  "entrypoints": { "main": ["com.amresh.villagernews.VillagerNewsMod"] },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "26.3.x",
+    "fabric-api": "*"
+  }
+}
